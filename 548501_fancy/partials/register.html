@@ -1,0 +1,19 @@
+<section class="log" ng-controller="loginControl">     
+    <form name="userForm" class="col-xs-10">
+            <div class="form-group form-group-xs col-xs-10">
+                <label class="col-sm-2 control-label" for="username">User Name</label>
+                <div class="col-sm-8">
+                    <input class="form-control" type="text" ng-model="username" name="username" autocomplete="off">
+                </div>
+            </div>
+            <div class="form-group form-group-xs col-xs-10">
+                <label class="col-sm-2 control-label" for="password">Password</label>
+                <div class="col-sm-8">
+                    <input class="form-control" type="password" ng-model="password" name="password" autocomplete="off">
+                </div>
+            </div>
+            <div class="btnDiv col-xs-3">
+            <button class="btn btn-primary" ng-click="register()">register</button>
+            </div>
+    </form>
+</section>

@@ -1,0 +1,9 @@
+<section class="wel text-center" ng-controller="welcomeControl">
+	<h1>Welcome {{userFirstname}}</h1>
+	<label for="watch">Observe Watch by entering text:</label>
+	<input type="text" name="watch" ng-model="watch">
+	<div class="buttonDiv" style="margin:10% 0">
+		<p ng-bind="watchContent">Text watched:</p>
+		<button ng-click="logout()">Logout</button>
+	</div>
+</section>
